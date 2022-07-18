@@ -7,6 +7,8 @@ import { SignUp } from "./signInUp/SignUp";
 import { Wifi } from "./wifi/Wifi";
 
 import "../styles/reset.css"
+import { Cards } from "./cards/Cards";
+import { Insert } from "../insert/Insert";
 
 
 export default function App() {
@@ -17,8 +19,10 @@ export default function App() {
                     <Route path="/sign-up" element={<SignUp/>}> </Route>
                     <Route path="/home" element={<Home/>}> </Route>
                     <Route path="/credentials" element={<Credentials/>}> </Route>
+                    <Route path="/cards" element={<Cards/>}> </Route>
                     <Route path="/wifi" element={<Wifi/>}> </Route>
                     <Route path="/notes" element={<Notes/>}> </Route>
+                    <Route path="/insert" element={<Insert/>}> </Route>
                 </Routes>
             </BrowserRouter>
     )

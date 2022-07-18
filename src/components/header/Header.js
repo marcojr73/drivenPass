@@ -45,6 +45,7 @@ const ContainerHeader = styled.header`
 
     h2{
         font-family: 'Recursive';
+        color: #FFFFFF;
         font-size: 18px;
         margin-left: 16px
     }
