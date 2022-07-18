@@ -14,15 +14,16 @@ export const Containerhome = styled.main`
         height: 47px;
         margin-top: 30px;
     }
-    
+
     .circle{
         background: #005985;
         width: 25px;
         border-radius: 50%;
     }
     
-    img{
-        width: 45px;
+    svg{
+        font-size: 45px;
+        color: #005985;
     }
     
     h1{

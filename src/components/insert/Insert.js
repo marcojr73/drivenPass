@@ -2,10 +2,8 @@ import { Header } from "../header/Header";
 import { Link } from "react-router-dom";
 import { Containerhome } from "../home/ContainerHome"
 
-import card from "../../images/card.png"
-import credential from "../../images/credential.png"
-import note from "../../images/note.png"
-import wifi from "../../images/wifi.png"
+import{IoLogIn,IoPencil,IoCard,IoWifi} from "react-icons/io5"
+import {FaIdCard} from "react-icons/fa"
 
 export function Insert(){
     return(
@@ -14,7 +12,7 @@ export function Insert(){
         <Containerhome>
             <Link to="/insert/credentials">
                 <section className="typePass">
-                    <img src={credential}/>
+                    <IoLogIn/>
                     <h1>Credenciais</h1>
                 </section>
                 <div className="circle"></div>
@@ -22,7 +20,7 @@ export function Insert(){
 
             <Link to="/insert/notes">
                 <section className="typePass">
-                    <img  src={note}/>
+                    <IoPencil/>
                     <h1>Notas seguras</h1>
                 </section>
                 <div className="circle"></div>
@@ -30,15 +28,15 @@ export function Insert(){
 
             <Link to="/insert/cards">
                 <section className="typePass">
-                    <img  src={card}/>
+                    <IoCard/>
                     <h1>Cartões</h1>
                 </section>
                 <div className="circle"></div>
             </Link>
 
             <Link to="/insert/wifi">
-                <section classname="typePass">
-                    <img  src={wifi}/>
+                <section className="typePass">
+                    <IoWifi/>
                     <h1>Senhas de wifi</h1>
                 </section>
                 <div className="circle"></div>

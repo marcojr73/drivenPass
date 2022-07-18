@@ -11,6 +11,7 @@ export const ContainerPasswordsUser = styled.main`
         display: flex;
         align-items: center;
     }
+    
     img{
         width: 43px;
         margin-right: 20px;

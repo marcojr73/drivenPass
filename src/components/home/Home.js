@@ -1,6 +1,8 @@
 import { Header } from "../header/Header";
 import { Link, useNavigate } from "react-router-dom"
 
+import{IoLogIn,IoPencil,IoCard,IoWifi} from "react-icons/io5"
+import {FaIdCard} from "react-icons/fa"
 
 import card from "../../images/card.png"
 import credential from "../../images/credential.png"
@@ -15,34 +17,30 @@ export function Home(){
         <Containerhome>
             <Link to="/credentials">
                 <section className="typePass">
-                    <img src={credential}/>
+                    <IoLogIn/>
                     <h1>Credenciais</h1>
                 </section>
-                <div className="circle"></div>
             </Link>
 
             <Link to="/notes">
                 <section className="typePass">
-                    <img  src={note}/>
+                    <IoPencil/>
                     <h1>Notas seguras</h1>
                 </section>
-                <div className="circle"></div>
             </Link>
 
             <Link to="/cards">
                 <section className="typePass">
-                    <img  src={card}/>
+                    <IoCard/>
                     <h1>Cartões</h1>
                 </section>
-                <div className="circle"></div>
             </Link>
 
-            <Link to="/wifi">
-                <section classname="typePass">
-                    <img  src={wifi}/>
+            <Link className="wifi" to="/wifi">
+                <section className="typePass">
+                    <IoWifi/>
                     <h1>Senhas de wifi</h1>
                 </section>
-                <div className="circle"></div>
             </Link>
 
             <Link to="/insert">

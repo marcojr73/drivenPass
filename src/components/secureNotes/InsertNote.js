@@ -29,9 +29,9 @@ export function InsertNote(){
 
         try {
             const response = await axios.post(urlApi, data, config)
-            console.log(response.data)
+            alert("sucesso")
         } catch (error) {
-            console.log(error)
+            alert(error)
         }
     }
 
