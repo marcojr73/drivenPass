@@ -8,7 +8,11 @@ import { Wifi } from "./wifi/Wifi";
 
 import "../styles/reset.css"
 import { Cards } from "./cards/Cards";
-import { Insert } from "../insert/Insert";
+import { Insert } from "./insert/Insert";
+import { InsertCard } from "./cards/InsertCard";
+import { InsertWifi } from "./wifi/InsertWifi";
+import { InsertNote } from "./secureNotes/InsertNote";
+import { InsertCredential } from "./credentials/InsertCredential";
 
 
 export default function App() {
@@ -23,6 +27,10 @@ export default function App() {
                     <Route path="/wifi" element={<Wifi/>}> </Route>
                     <Route path="/notes" element={<Notes/>}> </Route>
                     <Route path="/insert" element={<Insert/>}> </Route>
+                    <Route path="/insert/credentials" element={<InsertCredential/>}> </Route>
+                    <Route path="/insert/cards" element={<InsertCard/>}> </Route>
+                    <Route path="/insert/wifi" element={<InsertWifi/>}> </Route>
+                    <Route path="/insert/notes" element={<InsertNote/>}> </Route>
                 </Routes>
             </BrowserRouter>
     )
