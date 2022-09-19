@@ -10,7 +10,7 @@ import padlock from "../../images/lock.png"
 export function SignUp(){
     const [ password, setPassword ] = useState("")
     const [email, setEmail] = useState("")
-    const url = "http://localhost:5000"
+    const url = "https://drivenpass-api-mj.herokuapp.com"
 
     const navigate = useNavigate()
 

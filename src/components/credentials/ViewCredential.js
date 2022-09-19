@@ -8,7 +8,7 @@ import axios from "axios";
 export function ViewCredential(){
     const { data, setData } = useContext(DataPass)
 
-    const urlApi = "http://localhost:5000/credentials/delete"
+    const urlApi = "https://drivenpass-api-mj.herokuapp.com/credentials/delete"
 
     async function deleteItem(){
         const token = localStorage.getItem("token")

@@ -7,7 +7,7 @@ import axios from "axios";
 
 export function ViewCard(){
     const { data, setData } = useContext(DataPass)
-    const urlApi = "http://localhost:5000/card/delete"
+    const urlApi = "https://drivenpass-api-mj.herokuapp.com/card/delete"
 
     async function deleteItem(){
         const token = localStorage.getItem("token")

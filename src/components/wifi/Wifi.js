@@ -10,7 +10,7 @@ import wifiimg from "../../images/wifi.png"
 
 
 export function Wifi(){
-    const url = "http://localhost:5000"
+    const url = "https://drivenpass-api-mj.herokuapp.com"
     const [wifi, setWifi] = useState([])
     const { data, setData } = useContext(DataPass)
 

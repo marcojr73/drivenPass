@@ -14,7 +14,7 @@ export function InsertCard(){
     const [isVirtual, setIsvirtual] = useState(false)
     const [type, setType] = useState("credit")
     const [title, setTitle] = useState("")
-    const url = "http://localhost:5000/card/create"
+    const url = "https://drivenpass-api-mj.herokuapp.com/card/create"
 
     async function sendDataRegister(e){
         e.preventDefault()

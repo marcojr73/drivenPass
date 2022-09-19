@@ -8,7 +8,7 @@ export function InsertNote(){
 
     const [title, setTitle] = useState("")
     const [note, setNote] = useState("")
-    const urlApi = "http://localhost:5000/notes/create"
+    const urlApi = "https://drivenpass-api-mj.herokuapp.com/notes/create"
 
     async function sendDataRegister(e){
         e.preventDefault()

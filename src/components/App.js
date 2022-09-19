@@ -20,7 +20,6 @@ import { ViewCard } from "./cards/ViewCard";
 import { ViewWifi } from "./wifi/ViewWifi";
 import { ViewNote } from "./secureNotes/ViewNote";
 
-
 export default function App() {
 
     const [data, setData] = useState({})

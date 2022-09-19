@@ -8,7 +8,7 @@ import DataPass from "../context/dataPass"
 import noteimg from "../../images/note.png"
 
 export function Notes(){
-    const url = "http://localhost:5000"
+    const url = "https://drivenpass-api-mj.herokuapp.com"
     const [notes, setNotes] = useState([])
     const { data, setData } = useContext(DataPass)
 

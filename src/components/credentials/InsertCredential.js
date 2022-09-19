@@ -10,7 +10,7 @@ export function InsertCredential(){
     const [userName, setUserName] = useState("")
     const [password, setPassword] = useState("")
     const [title, setTitle] = useState("")
-    const urlApi = "http://localhost:5000/credentials/create"
+    const urlApi = "https://drivenpass-api-mj.herokuapp.com/credentials/create"
 
     async function sendDataRegister(e){
         e.preventDefault()

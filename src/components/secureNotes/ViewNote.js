@@ -7,7 +7,7 @@ import axios from "axios";
 
 export function ViewNote(){
     const { data, setData } = useContext(DataPass)
-    const urlApi = "http://localhost:5000/notes/delete"
+    const urlApi = "https://drivenpass-api-mj.herokuapp.com/notes/delete"
 
     async function deleteItem(){
         const token = localStorage.getItem("token")

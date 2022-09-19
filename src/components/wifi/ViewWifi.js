@@ -8,7 +8,7 @@ import axios from "axios";
 export function ViewWifi(){
     const { data, setData } = useContext(DataPass)
 
-    const urlApi = "http://localhost:5000/wifi/delete"
+    const urlApi = "https://drivenpass-api-mj.herokuapp.com/wifi/delete"
 
     async function deleteItem(){
         const token = localStorage.getItem("token")

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Containerhome } from "../home/ContainerHome"
 
 import{IoLogIn,IoPencil,IoCard,IoWifi} from "react-icons/io5"
-import {FaIdCard} from "react-icons/fa"
 
 export function Insert(){
     return(

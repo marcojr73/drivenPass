@@ -1,13 +1,6 @@
 import { Header } from "../header/Header";
 import { Link, useNavigate } from "react-router-dom"
-
 import{IoLogIn,IoPencil,IoCard,IoWifi} from "react-icons/io5"
-import {FaIdCard} from "react-icons/fa"
-
-import card from "../../images/card.png"
-import credential from "../../images/credential.png"
-import note from "../../images/note.png"
-import wifi from "../../images/wifi.png"
 import { Containerhome } from "./ContainerHome";
 
 export function Home(){
