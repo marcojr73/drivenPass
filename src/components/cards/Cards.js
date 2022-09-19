@@ -10,7 +10,7 @@ import { ContainerPasswordsUser } from "../utils/ContainerPasswordsUser"
 import {Header} from "../header/Header"
 
 export function Cards(){
-    const url = "https://drivenpass-api-mj.herokuapp.com/"
+    const url = "https://drivenpass-api-mj.herokuapp.com"
     const [cards, setCards] = useState([])
     const { data, setData } = useContext(DataPass)
 
