@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Driven pass
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+   <img width=350 src="https://camo.githubusercontent.com/9fc043de59486391ea60800bb55c0442838a476a434a63aff152768f4d172f66/68747470733a2f2f6e6f74696f6e2d656d6f6a69732e73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f70726f642f7376672d747769747465722f31663531322e737667"/>
+</p>
 
-## Available Scripts
+- Para uma senha ser segura, ela deve conter vários caracteres e números misturados, sem contar que o quanto mais longa ela for, melhor.
+- Só que como vamos memorizar senhas gigantes e sem significado semântico? É para resolver essa dor de cabeça que surgiu o Driven pass! Com ele, criamos apenas uma senha “mestra” e todas as outras senhas ficam gravadas em segredo! Logo, quando precisamos dela, basta lembrar da senha “mestra”!
+- Podemos armazenar Senhas de cartões, wifi, web sites e criar notas, tudo de forma segura e criptografada
 
-In the project directory, you can run:
+- [Veja meu deploy na Vercel aqui](https://driven-pass-iota.vercel.app)
+- [Veja meu repositório back end desta aplicação aqui](https://github.com/marcojr73/projeto19-drivenpass)
 
-### `npm start`
+***
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Demonstração
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+   <img width=300 src="./src/images/app.gif"/>
+</p>
 
-### `npm test`
+## Como usar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instale meu projeto e configure o .env como no exemplo
 
-### `npm run build`
+```bash
+  git clone git@github.com:marcojr73/drivenPass.git
+  
+  npm i
+  
+  npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+***
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##	 Tecnologias e Conceitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- Styled Componentes
+- Persistência de login com local storage
+- Context API
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+***
+    
